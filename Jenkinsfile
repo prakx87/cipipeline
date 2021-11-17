@@ -7,6 +7,7 @@ pipeline {
                 sh '''
                     echo "Multiline shell works too"
                     ls -lah
+                    pwd
                 '''
             }
         }
