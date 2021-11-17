@@ -8,6 +8,7 @@ pipeline {
                     echo "Multiline shell works too"
                     ls -lah
                     pwd
+                    echo "new line!!!"
                 '''
             }
         }
